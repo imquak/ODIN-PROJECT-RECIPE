@@ -30,25 +30,39 @@ body
 }
 
 .main.list li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     color: white;
     font-size: 32px;
     text-decoration: none;
-    
+    height: 100%;
 }
 
 .list li a:hover
 {
     color: turquoise;
 }
+
+.main.list li:hover{
+    background-color: rgb(96, 43, 203);
+}
 .main.list li
 {
+
+    border-radius: 10px;
+    background-color: rgb(10, 56, 180);
+    width: 50%;
     text-align: center;
     list-style: none;
     padding: 0;
     margin: 0;
+    height: 100%;
 }
 #duckimg
 {
+    border-radius: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -63,9 +77,21 @@ body
 }
 
 .displayimg{
+
+    border-radius: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     box-shadow: 0px 0px 15px #fff;
+}
+
+.main.list
+{
+    gap: 10px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
